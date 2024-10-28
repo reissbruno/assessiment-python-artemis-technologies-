@@ -15,8 +15,6 @@ def criar_arquivo_reverso():
         logging.info(f"O arquivo reverso foi criado em: {arquivo_destino}")
     except FileNotFoundError:
         logging.error(f"O arquivo '{arquivo_origem}' não foi encontrado.")
-    except Exception as e:
-        logging.error(f"Erro ao criar arquivo reverso: {e}")
         
 if __name__ == "__main__":
     criar_arquivo_reverso()
