@@ -1,1 +1,0 @@
-# assessiment-python-artemis-technologies-
